@@ -11,6 +11,7 @@
 		E4D57AAA29DC608000DC5111 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D57AA929DC608000DC5111 /* ContentView.swift */; };
 		E4D57AAC29DC608100DC5111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D57AAB29DC608100DC5111 /* Assets.xcassets */; };
 		E4D57AB029DC608100DC5111 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4D57AAF29DC608100DC5111 /* Preview Assets.xcassets */; };
+		E4D57AB829DC648000DC5111 /* boat-153559.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E4D57AB729DC648000DC5111 /* boat-153559.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4D57AAB29DC608100DC5111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4D57AAD29DC608100DC5111 /* Looping_videos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Looping_videos.entitlements; sourceTree = "<group>"; };
 		E4D57AAF29DC608100DC5111 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4D57AB729DC648000DC5111 /* boat-153559.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "boat-153559.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E4D57AA729DC608000DC5111 /* Looping_videosApp.swift */,
 				E4D57AA929DC608000DC5111 /* ContentView.swift */,
+				E4D57AB629DC645B00DC5111 /* Assets */,
 				E4D57AAB29DC608100DC5111 /* Assets.xcassets */,
 				E4D57AAD29DC608100DC5111 /* Looping_videos.entitlements */,
 				E4D57AAE29DC608100DC5111 /* Preview Content */,
@@ -67,6 +70,14 @@
 				E4D57AAF29DC608100DC5111 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4D57AB629DC645B00DC5111 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E4D57AB729DC648000DC5111 /* boat-153559.mp4 */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			files = (
 				E4D57AB029DC608100DC5111 /* Preview Assets.xcassets in Resources */,
 				E4D57AAC29DC608100DC5111 /* Assets.xcassets in Resources */,
+				E4D57AB829DC648000DC5111 /* boat-153559.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
