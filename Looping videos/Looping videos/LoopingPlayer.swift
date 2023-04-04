@@ -7,10 +7,18 @@
 
 import SwiftUI
 
-struct LoopingPlayer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct LoopingPlayer: UIViewRepresentable {
+    func makeUIView(context: Context) -> some UIView {
+        return PlayerUIView(frame: .zero)
     }
+}
+
+class PlayerUIView: UIView {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required 
 }
 
 struct LoopingPlayer_Previews: PreviewProvider {
