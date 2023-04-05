@@ -19,6 +19,8 @@ struct LoopingPlayer: UIViewRepresentable {
 }
 
 class PlayerUIView: UIView {
+    private var playerLayer = AVPlayerLayer
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -28,6 +30,7 @@ class PlayerUIView: UIView {
     let playerItem = AVPlayerItem(url: fileUrl)
     
     //Setup Player
+    let player = AVPlayerLayer(playerItem: playerItem)
     
     //Play
     
