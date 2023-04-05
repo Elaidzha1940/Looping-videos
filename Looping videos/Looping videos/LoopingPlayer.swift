@@ -34,8 +34,17 @@ class PlayerUIView: UIView {
         playerLayer.vidoeGravity = .resizeAspectFill
         layer.addSublayer(playerLayer)
         
+        //Loop
+        player.actionAtItemEnd = .none
+        NotificationCenter.default.addObserver(self, selector: #selector(rewindVideo(notification: )), name: .AVPlayerItemDidPlayToEndTime, object: player.currentTime())
+        
         //Play
         player.play()
+    }
+    
+    @objc
+    func rewindVideo(notification: Notification) {
+        playerLayer.player?.seek(to: .zero)
     }
     
     override func layoutSubviews() {
