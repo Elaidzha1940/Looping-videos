@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct LoopingPlayer: UIViewRepresentable {
     func makeUIView(context: Context) -> some UIView {
@@ -24,7 +25,7 @@ class PlayerUIView: UIView {
     
     //Load Video
     let fileUrl = Bundle.main.url(forResource: "VidoeWithBlock", withExtension: "move")
-    let Pla
+    let playerItem = AVPlayerItem(url: fileUrl)
     
     //Setup Player
     
