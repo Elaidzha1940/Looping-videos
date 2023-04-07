@@ -1,9 +1,13 @@
+//  */
 //
-//  LoopingPlayer.swift
-//  Looping videos
+//  Project: Looping videos
+//  File: LoopingPlayer.swift
+//  Created by: Elaidzha Shchukin
+//  Date: on 04.04.2023.
 //
-//  Created by Elaidzha Shchukin on 04.04.2023.
+//  Status: Decoreted
 //
+//  /*
 
 import SwiftUI
 import AVFoundation
